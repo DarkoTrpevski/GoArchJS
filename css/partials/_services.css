@@ -1,0 +1,135 @@
+
+/* ------------------------------------------------------------------------------- */
+/*  6. Services
+/* ------------------------------------------------------------------------------- */
+
+
+.col-service{
+    padding: 0 4em;
+}
+
+.service-item {
+    margin-bottom: 2em;
+}
+.service-item h4 {
+    font-size: 1.8em;
+    margin: 1em 0;
+}
+
+.service-item p {
+    font-size: 1.4em;
+}
+
+@media(max-width: 768px) {
+    .col-service{
+        padding: 0;
+    }
+}
+@media(max-width: 280px) {
+    .service-item h4 {
+        font-size: 1.4em;
+        margin: 1em 0;
+    }
+    
+    .service-item p {
+        font-size: 1.2em;
+    }
+}
+/* ------------------------------------------------------------------------------- */
+/*  7. Experience
+/* ------------------------------------------------------------------------------- */
+
+
+.experience{
+text-align: center;
+padding-top: 8em;
+}
+
+.text-parallax {
+background: no-repeat 0 0;
+display: inline-block;
+}
+
+.text-parallax-content{
+font-family: 'Arial', sans-serif;
+font-weight: 700;
+font-size: 21.8em;
+line-height: 1;
+overflow: hidden;
+margin-bottom: 0;
+background: #272727;
+color:#fff;
+mix-blend-mode: darken;
+-ms-mix-blend-mode:darken;
+}
+
+.experience-info{
+position: relative;
+top: -0.75em;
+font-family: 'Oswald', sans-serif;
+font-size: 1.5625em;
+line-height: 1.45;
+letter-spacing: 0.06em;
+display: inline-block;
+text-align: left;
+margin:0 0 0 0.5em;
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  8. Clients
+/* ------------------------------------------------------------------------------- */
+
+
+
+.clients{
+text-align: center;
+}
+
+
+.clients-list .client{
+display: inline-block;
+vertical-align: middle;
+padding: 3.8em 1.95em 0;
+margin:0;
+}
+
+.clients-list .client img{
+opacity: 0.3;
+display: block;
+-webkit-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.5s;
+}
+
+.clients-list .client a:hover img{
+opacity: 1;
+}
+
+
+@media (max-width: 380px) {
+    .text-parallax-content{
+        font-size: 18em;
+    }
+    
+    
+    .clients{
+        text-align: center;
+    }
+
+    .clients-list{
+        margin:0;
+    }
+
+    .clients-list .client{
+        display: inline-block;
+        vertical-align: middle;
+        padding: 3.8em 1.95em 0;
+        margin:0;
+    }
+}
+
+@media (max-width: 280px) {
+    .text-parallax-content{
+        font-size: 14em;
+    }
+}

@@ -1,0 +1,36 @@
+.footer {
+    font-size: 10px!important;
+    text-align: center;
+    padding: 7.1em 0 5.5em 0;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.footer-brand {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: -2em;
+    font-size: 3.4em;
+    line-height: 1;
+    color: #fff;
+}
+
+.author-link {
+    display: inline-block;
+    margin-top: -1em;
+    font-size: 2em;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    color: #d0d0d0;
+}
+.author-link:hover {
+    color: #d0d0d0;
+}
+.author-link span {
+    color: #c5a47e;
+    transition: all 0.5s ease-in-out;
+}
+.author-link span:hover {
+    color: #fff;
+}

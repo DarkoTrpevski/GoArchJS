@@ -1,0 +1,29 @@
+/*1.Importing libraries CSS */
+@import url("bootstrap.min.css");
+@import url('magnific-popup.css');
+@import url("owl.carousel.css");
+@import url("owl.transitions.css");
+
+/*1.5.Importing wow-js animate CSS*/
+@import url("animate.css");
+
+/*2.General CSS*/
+@import url("partials/_general.css");
+@import url("partials/_typography.css");
+
+/*3.Header + Brandpanel CSS*/
+@import url("partials/_header.css");
+@import url("partials/_brandpanel.css");
+
+
+/*4.Sections CSS*/
+@import url("partials/_main_carousel.css");
+@import url("partials/_about.css");
+@import url("partials/_projects.css");
+@import url("partials/_services.css");
+@import url("partials/_clients.css");
+@import url("partials/_map.css");
+@import url("partials/_contacts.css");
+@import url("partials/_footer.css");
+/*5.Loader CSS*/
+@import url("partials/_loader.css");

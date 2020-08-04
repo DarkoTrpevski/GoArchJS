@@ -1,0 +1,139 @@
+/*------------------------------------------------------------------------------*/
+#contacts {
+    padding: 30em 0;
+}
+.contacts .fade-title-right{
+  left: 90%;
+}
+
+.row-field{
+  margin-left: -5px;
+  margin-right:-5px;
+}
+
+.col-field{
+  padding: 0 5px;
+}
+
+.form-message{
+  display: none;
+  margin-top: 20px;
+}
+
+.col-address{
+    height: 100%!important;
+    font-size: 1em;
+    line-height: 2;
+    margin-top: 3em;
+}
+
+.form-submit{
+  margin-top: 1.2em;
+}
+
+.success-message{
+  display: none;
+}
+
+.error-message{
+  display: none;
+}
+
+.success-message .fa{
+  margin-right: 7px;
+  font-size: 1.5em;
+}
+
+/*------------------------------------------------------------------------------*/
+/* Form */
+
+.form-control,
+textarea.form-control{
+  font-size: 1em;
+  height: 3.625em;
+  border-radius: 0.75em;
+  padding-left: 22px;
+  color: #fff;
+  background-color: #323232;
+  border:1px solid #323232;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  -webkit-appearance: none;
+  -webkit-transition: all .15s;
+  -o-transition: all .15s;
+  transition: all .15s;
+}
+
+textarea.form-control{
+  height: 7.9em;
+  padding-top:1.1em;
+  resize:none;
+}
+
+.form-control:focus{
+  border-color:#c5a47e;
+  outline: 0;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+
+.form-control::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #fff;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.form-control.error{
+  border-color:#c5a47e;
+}
+
+.form-group{
+  margin-bottom: 10px;
+}
+
+.alert {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.alert-error {
+  padding: 0.5em;
+  background: rgba(250, 128, 114, 0.7);
+}
+
+.alert-success {
+  padding: 0.5em;
+  background: rgba(12, 243, 35, 0.7);
+}
+
+
+@media (max-width: 480px) {
+    .form-submit {
+        text-align: center!important;
+    }
+    .btn-contact {
+        width: 60%;
+        border-radius: 10px;
+    }
+}
+    
+@media (max-width: 380px) {
+    .btn-contact {
+        width: 100%;
+        position: relative;
+        display: block;
+        padding: 0.5em 0!important;
+        border: none!important;
+        border-radius: 5px;
+    }
+}

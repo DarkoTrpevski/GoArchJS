@@ -1,0 +1,57 @@
+
+/* ------------------------------------------------------------------------------- */
+/*  4. About
+/* ------------------------------------------------------------------------------- */
+
+.about .fade-title-left{
+user-select: none;
+top:1em;
+}
+.section-title .text-primary {
+letter-spacing: 0.1em;
+}
+
+.col-about-title{
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom:1.1em; 
+}
+
+.col-about-info p {
+    font-size: 1.4em;
+    margin-bottom: 0;
+}
+.col-about-spec {
+    padding: 0 7em;
+}
+.col-about-img{
+    position: relative;
+}
+
+.col-about-img img{
+    width: 100%;
+    height: auto;
+    max-width: calc(100% + 5px);
+    display: block;
+    box-shadow: 5px 8px 25px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 768px) {
+    .col-about-spec .col-about-title {
+        text-align: left;
+    }
+    .col-base {
+        padding: 0;
+    }
+    .col-about-img img {
+        width: 50%;
+    }
+}
+@media(max-width: 280px) {
+    .col-about-spec .col-about-title {
+        font-size: 1.8em;
+    }
+    .col-about-info p {
+        font-size: 1.2em;
+    }
+}
